@@ -1,4 +1,4 @@
-FROM ghcr.io/aristanetworks/ansible-avd/uni:python3.11-avd-devel 
+FROM ghcr.io/aristanetworks/avd/universal:python3.11-avd-devel
 
 ARG _ARTOKEN
 ARG _AR_FILE_PATH
