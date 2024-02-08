@@ -12,7 +12,7 @@
     }
   },
   // "onCreateCommand": "sudo apt-get update; sudo apt-get install -y chromium",
-  "onCreateCommand": ["sudo docker import /home/avd/tmp/ceos-lab-tmp"],
+  "onCreateCommand": ["sudo docker import /home/avd/tmp/ceos-lab-tmp -t ceos-lab"],
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2.2.0": {
       "version": "latest"
